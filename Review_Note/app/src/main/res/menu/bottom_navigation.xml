@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#666666">
+
+    <item
+        android:id="@+id/note"
+        android:icon="@drawable/ic_baseline_event_note_24"
+        android:title="review_note"
+        app:cnb_iconColor="@color/navigation_color_mood"/>
+
+    <item
+        android:id="@+id/shop"
+        android:icon="@drawable/ic_baseline_shopping_cart_24"
+        android:title="shop"
+        app:cnb_iconColor="@color/navigation_color_habit"/>
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"
+        app:cnb_iconColor="@color/navigation_color_add"/>
+
+    <item
+        android:id="@+id/ranking"
+        android:icon="@drawable/ic_baseline_format_list_numbered_24"
+        android:title="ranking"
+        app:cnb_iconColor="@color/navigation_color_chart"/>
+
+    <item
+        android:id="@+id/timer"
+        android:icon="@drawable/ic_baseline_timer_24"
+        android:title="timer"
+        app:cnb_iconColor="@color/navigation_color_profile"/>
+
+</menu>
+
